@@ -23,7 +23,7 @@ The first time SSH asks to continue, type `yes`. Steps 2 and 3 run in that Ubunt
 On Ubuntu, download the installer and run it. Then create the directory Kali will see.
 
 ```bash
-curl -fsSL -o /tmp/install-unfs3.sh https://raw.githubusercontent.com/GalaticMatters/COM212labs/main/install-unfs3.sh
+curl -fsSL -o /tmp/install-unfs3.sh https://raw.githubusercontent.com/slu-van/COM212labs/main/install-unfs3.sh
 sudo bash /tmp/install-unfs3.sh
 sudo mkdir -p /srv/nfs/lab
 sudo chmod 777 /srv/nfs/lab
